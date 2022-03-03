@@ -5,16 +5,19 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
+
+
+
 function App() {
   return (
-    <>
+    <main className="main">
       <NavBar />
       <About />
       <Projects />
       <Skills />
       <Contact />
     
-    </>
+    </main>
   );
 }
 

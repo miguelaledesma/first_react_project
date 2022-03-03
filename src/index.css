@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+body{
+    font-family: Poppins;
+    margin:5%;
+    padding:5%;
+}
+
+header{
+position:fixed; 
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: center;
+z-index: 999;
+background-color:black;
+color:white; 
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+
+}
+
+h1{
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #navbar li {
+    margin:1em;
+    list-style-type: none;
+  }
+  
+  #welcome-section, #projects {
+    min-height:90vh;
+    margin:0 auto;
+    padding:2rem 0;
+  }
+  
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #welcome-section > * {
+    margin: 1.5em 0em;
+  }
+  
+  #welcome-section h1 {
+    font-size: calc(1.75rem + 2vw);
+  }
+  
+  #welcome-section .about-me-list {
+    margin-left:1.25em;
+    font-size: var(--text-size);
+  }
+  
+  .about-me-list li:before {
+    /* content:"\003E \0020"; */
+  }
+  
+  .social-media {
+    display: flex;
+    
+  }
+  
+  .social-media a {
+    font-size:1.8em;
+    margin-right:1em;
+  }
+  
+  .social-media a:last-child {
+    margin:0;
+  }
