@@ -6,8 +6,8 @@ const About = () => {
         <article id="welcome-section">
 
       <section>
-      <h1>Hello, My name is Miguel!</h1>
-        <h2>My Skills</h2>
+      <h1>Hello, my name is Miguel!</h1>
+        <h2>my skills</h2>
         <ul class="about-me-list">
           <li>Javascript</li>
           <li>React.js</li>
