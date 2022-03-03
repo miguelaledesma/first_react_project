@@ -4,7 +4,7 @@ const About = () => {
     
     return(
         <article id="welcome-section">
-            
+
       <section>
       <h1>Hello, My name is Miguel!</h1>
         <h2>My Skills</h2>

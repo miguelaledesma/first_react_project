@@ -13,7 +13,6 @@ left: 0;
 width: 100%;
 display: flex;
 justify-content: center;
-z-index: 999;
 background-color:black;
 color:white; 
 }
@@ -39,7 +38,7 @@ h1{
   }
   
   #welcome-section, #projects {
-    min-height:90vh;
+    min-height:60vh;
     margin:0 auto;
     padding:2rem 0;
   }
@@ -79,4 +78,43 @@ h1{
   
   .social-media a:last-child {
     margin:0;
+  }
+
+  #projects {
+      display:flex; 
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  #projects section{
+      
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      align-items: center;
+  }
+
+  .tile{
+      background-color: black;
+      text-align: center;
+      flex-basis: 180px; 
+      border-radius: 1rem;
+      margin: 0.5rem;
+      height: 200px;
+      width:300px;
+  }
+
+  .tile a {
+      color:white; 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+
+  }
+
+  .tile a:hover{
+      background-color: teal;
+      border-radius: 1rem;
   }
