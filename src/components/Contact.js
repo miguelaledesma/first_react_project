@@ -5,12 +5,16 @@ import React, { useState } from "react";
 const Contact = () => {
     const [submitted, setSubmitted] = useState(false)
 
-    
+
 
     return(
         <section id= 'contact'>
             <h2>contact me</h2>
+           
+
         </section>
+
+        
     )
 }
 

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
 
+
+html {
+     scroll-behavior: smooth; 
+    }
+
 body{
     font-family: Poppins;
     margin:5%;
@@ -114,9 +119,24 @@ h1{
 
   }
 
-  .tile a:hover{
+  /* .tile a:hover{
       background-color: teal;
       border-radius: 1rem;
+  } */
+
+  .tile:hover{
+    transform:scale(1.03);
+    
+  background-color:teal;
+  color:black;
+  box-shadow:0 10px 30px -5px rgba(255,255,255,0.2);
   }
 
+  .project-title {
+    font-size:1.125em;
+  }
+  
+  .project-intro {
+    display: none;
+  }
   
