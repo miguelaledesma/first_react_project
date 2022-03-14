@@ -126,9 +126,8 @@ h1{
 
   .tile:hover{
     transform:scale(1.03);
-    
   background-color:teal;
-  color:black;
+  color:;
   box-shadow:0 10px 30px -5px rgba(255,255,255,0.2);
   }
 
