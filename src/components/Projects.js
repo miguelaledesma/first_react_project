@@ -8,7 +8,7 @@ const Projects = () => {
         <div className ='tile' >
             <a href='' target='_blank'> 
             <span className = 'project-title'>Title of Project</span>
-            <span className = 'project-info'>Description of Project</span>
+            <span className = 'project-info'></span>
             </a>
         </div>
 
