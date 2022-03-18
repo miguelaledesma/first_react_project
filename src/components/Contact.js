@@ -20,9 +20,7 @@ const Contact = () => {
             <div>I will contact you soon.</div>
             </>
         )
-    } else if (submitted){
-        return setSubmitted(true)
-    }
+    } 
 
     return(
         <section id= 'contact'>

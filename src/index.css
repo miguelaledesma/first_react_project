@@ -34,6 +34,7 @@ h1{
 }
 h2{
   color: white;
+  text-decoration: underline;
 }
 
 #navbar ul {
@@ -178,3 +179,6 @@ h2{
     border-radius: 2px; 
   }
   
+  .about-me-list{
+    color:white; 
+  }
